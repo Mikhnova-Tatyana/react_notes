@@ -1,0 +1,45 @@
+.note {
+  background-color: rgb(70, 91, 210);
+  padding: 1em;
+  border: solid rgb(70, 91, 210) 1px;
+  border-radius: 10px; 
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  textarea {
+    border: none;
+    background-color: rgb(70, 91, 210);
+    resize: none;
+    height: 100px;
+    color: #000;
+
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      color: #f6e932;
+    }
+  }
+  .save {
+    background-color: #e1e1e1;
+    border: 1px solid #e1e1e1;
+    border-radius: 15px;
+    padding: 0.4rem;
+    transition: background-color 0.3s ease 0s;
+
+    &:hover {
+      background-color: #f6e932;
+      cursor: pointer;
+    }
+  }
+
+}
+

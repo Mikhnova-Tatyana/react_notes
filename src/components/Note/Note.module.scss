@@ -1,0 +1,27 @@
+.note {
+  background-color: #f6e932;
+  padding: 1em;
+  border: solid #f6e932 1px;
+  border-radius: 10px; 
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: rgb(70, 91, 210);
+  white-space: pre-wrap;
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__text {
+    white-space: pre-wrap;
+  }
+  .icon_delete {
+    font-size: 1.5rem;
+    display: block;
+    cursor: pointer;
+  }
+}
